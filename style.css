@@ -158,3 +158,205 @@
     border-radius: 5px;
     margin-top: 8px;
 }
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #F7F7F7;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: sans-serif;
+}
+
+.sec3row1 {
+    display: flex;
+    gap: 25px;
+}
+
+.sec3row2 {
+    display: flex;
+    gap: 25px;
+}
+
+.card3 {
+    width: 350px;
+    height: 190px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+}
+
+.card3red {
+    background-color: #F43627;
+}
+
+.card3p1 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.card3p2 {
+    font-size: 11px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.textwhite {
+    color: white;
+}
+
+.card3btn {
+    background-color: #F43627;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.btnyellow {
+    background-color: #FFB800;
+    color: #222222;
+}
+
+.card2 {
+    width: 537px;
+    height: 220px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+}
+
+.card2p1 {
+    font-size: 22px;
+    font-weight: bold;
+    width: 210px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.card2p2 {
+    font-size: 11px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.card2price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F43627;
+    margin-top: 15px;
+    transform: rotate(-8deg);
+}
+
+.card2price span {
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.c1burger {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    width: 140px;
+}
+
+.c1new {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 42px;
+}
+
+.c2bowl {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 145px;
+}
+
+.c3box {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 155px;
+}
+
+.c3new {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 42px;
+}
+
+.c4bucket {
+    position: absolute;
+    right: 35px;
+    top: -15px;
+    width: 195px;
+}
+
+.c4fanta {
+    position: absolute;
+    right: 205px;
+    bottom: 15px;
+    width: 55px;
+}
+
+.c4burger {
+    position: absolute;
+    right: 145px;
+    bottom: 15px;
+    width: 75px;
+}
+
+.c4nugget {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    width: 75px;
+}
+
+.c5bucket {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    width: 260px;
+}
+
+.c5fanta {
+    position: absolute;
+    right: 245px;
+    bottom: 15px;
+    width: 55px;
+}
+
+.c5burger {
+    position: absolute;
+    right: 185px;
+    bottom: 15px;
+    width: 75px;
+}
+
+.c5nugget {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    width: 75px;
+}
